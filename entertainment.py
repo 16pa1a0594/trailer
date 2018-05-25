@@ -1,5 +1,4 @@
 #!usr/bin/env python
-#!usr/bin/env python
 import media
 import scientist  # importing packages
 alexander = media.Movie("Alexander",
@@ -21,5 +20,6 @@ schrodinger = media.Movie("Schrodinger",
                           "https://www.youtube.com/embed/aiGxZGXB7lE")
 Movies = [alexander, thomas, galileo, schrodinger]  # list of items
 # displays all the trailers of web page
-scientist.open_movies_page(Movies)  # function is called
+scientist.open_movies_page(Movies)
+
 
