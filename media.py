@@ -19,4 +19,3 @@ Methods:
 
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
-
