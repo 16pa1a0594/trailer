@@ -11,7 +11,7 @@ thomas = media.Movie("Thomas",
                      "https://www.youtube.com/embed/HQ2RJC1a8T0")
 galileo = media.Movie("Galileo",
                       "https://media3.picsearch.com/is?gudYY5Mvkgd2r59dZ9eT"
-                      "qdE_pULpiupnsSPiTvJS7-o&height=34"1,
+                      "qdE_pULpiupnsSPiTvJS7-o&height=341",
                       "https://www.youtube.com/embed/Rejbk1oJ2xg")
 schrodinger = media.Movie("Schrodinger",
                           "https://media3.picsearch.com/is?gudYY5Mvkgd2r59d"
