@@ -1,10 +1,12 @@
 #!usr/bin/env python
+#!usr/bin/env python
 import media
-import scientist
+import scientist  # importing packages
 alexander = media.Movie("Alexander",
                         "https://cdn-images-1.medium.com/max/1186/1*s2GyMoLe"
                         "SV3Epc2Gk3qBXA.png ",
                         "https://www.youtube.com/embed/ZAGY36JYQlg ")
+# variable named alexander is used to store and dot operator is used to store
 thomas = media.Movie("Thomas",
                      "https://media5.picsearch.com/is?u3DTOHIfghifvYGbeRkN9"
                      "yWBWfjsQG74NlDirr81ppM&height=289",
@@ -17,6 +19,7 @@ schrodinger = media.Movie("Schrodinger",
                           "https://media3.picsearch.com/is?gudYY5Mvkgd2r59d"
                           "Z9eTqdE_pULpiupnsSPiTvJS7-o&height=341",
                           "https://www.youtube.com/embed/aiGxZGXB7lE")
-Movies = [alexander, thomas, galileo, schrodinger]
-scientist.open_movies_page(Movies)
+Movies = [alexander, thomas, galileo, schrodinger]  # list of items
+# displays all the trailers of web page
+scientist.open_movies_page(Movies)  # function is called
 
