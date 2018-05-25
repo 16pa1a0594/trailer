@@ -21,5 +21,3 @@ schrodinger = media.Movie("Schrodinger",
 Movies = [alexander, thomas, galileo, schrodinger]  # list of items
 # displays all the trailers of web page
 scientist.open_movies_page(Movies)
-
-
